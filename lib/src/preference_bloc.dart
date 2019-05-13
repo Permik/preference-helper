@@ -25,7 +25,6 @@ class PreferenceBloc extends Bloc<PreferenceEvent, PreferenceState> {
 
   @override
   Stream<PreferenceState> mapEventToState(
-    PreferenceState currentState,
     PreferenceEvent event,
   ) async* {
     if (event is UpdatePreference) {

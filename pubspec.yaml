@@ -10,9 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^0.5.1+1
-  bloc: ^0.9.5
-  flutter_bloc: ^0.7.1
+  shared_preferences: ^0.5.1+2
+  bloc: ^0.11.2
+  flutter_bloc: ^0.10.1
   equatable: ^0.2.3
   meta: ^1.1.6
 
